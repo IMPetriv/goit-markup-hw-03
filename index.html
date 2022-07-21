@@ -11,111 +11,134 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<header class="header">
-			<!--Page header-->
-			<a href="./index.html" class="header-logo link"> <span class="header-logo-part header-logo">Web</span><span class="header-logo-second-part header-logo">Studio</span> </a>
-			<!--Main Navigation-->
-			<nav class="header-nav">
-				<!--Links to other pages or sections of the current page-->
-				<ul class="list"  >
-					<li><a href="./index.html" class="header-link link" >Студія</a></li>
-					<li><a href="./portfolio.html" class="header-link link" >Портфоліо</a></li>
-					<li><a href="/" class="header-link link">Контакти</a></li>
+			<div class="container">
+				<a href="./index.html" class="header-logo link">
+					<span class="header-logo-part header-logo">Web</span>
+					<span class="header-logo-second-part header-logo">Studio</span>
+				</a>
+				<!--Main Navigation-->
+				<nav class="header-nav">
+					<!--Links to other pages or sections of the current page-->
+					<ul class="list">
+						<li><a href="./index.html" class="header-link link">Студія</a></li>
+						<li><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
+						<li><a href="/" class="header-link link">Контакти</a></li>
+					</ul>
+				</nav>
+				<ul class="list">
+					<li><a href="mailto:info@example.com" class="header-mail link">info@example.com</a></li>
+					<li><a href="tel:+380991111111" class="header-tel link">+38 099 111 11 11</a></li>
 				</ul>
-			</nav>
-			<!--Contacts-->
-			<ul class="list" >
-				<li><a href="mailto:info@example.com" class="header-mail link">info@example.com</a></li>
-				<li><a href="tel:+380991111111" class="header-tel link">+38 099 111 11 11</a></li>
-			</ul>
+			</div>
 		</header>
 		<main>
-			<!--Main-->
 			<section class="hero">
-				<h1 class="hero-title-main">Ефективні рішення для вашого бізнесу</h1>
-				<button type="button" class="header-btn">Замовити послугу</button>
+				<div class="container">
+					<h1 class="hero-title-main">Ефективні рішення для вашого бізнесу</h1>
+					<button type="button" class="header-btn">Замовити послугу</button>
+				</div>
 			</section>
 			<!--Features-->
-			<section >
-				<h2 class="visually-hidden" >Наші переваги</h2>
-				<ul class="hero-list list">
-					<li class="hero-advantage">
-						<h3 class="hero-pre-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-						<p class="hero-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-					</li>
-					<li class="hero-advantage">
-						<h3 class="hero-pre-title">ПУНКТУАЛЬНІСТЬ</h3>
-						<p class="hero-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-					</li>
-					<li class="hero-advantage">
-						<h3 class="hero-pre-title">ПЛАНУВАННЯ</h3>
-						<p class="hero-text">Так само консультація з широким активом значною мірою зумовлює.</p>
-					</li>
-					<li class="hero-advantage">
-						<h3 class="hero-pre-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-						<p class="hero-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-					</li>
-				</ul>
+			<section>
+				<div class="container">
+					<h2 class="visually-hidden">Наші переваги</h2>
+					<ul class="hero-list list">
+						<li class="hero-advantage">
+							<h3 class="hero-pre-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="hero-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+						</li>
+						<li class="hero-advantage">
+							<h3 class="hero-pre-title">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="hero-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+						</li>
+						<li class="hero-advantage">
+							<h3 class="hero-pre-title">ПЛАНУВАННЯ</h3>
+							<p class="hero-text">Так само консультація з широким активом значною мірою зумовлює.</p>
+						</li>
+						<li class="hero-advantage">
+							<h3 class="hero-pre-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="hero-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!--Expirience-->
 			<section>
-				<h2 class="hero-title">Чим ми займаємося</h2>
-				<ul class="hero-item list">
-					<li>
-						<img src="images/img(1).jpg" alt="development" width="370" />
-					</li>
-					<li>
-						<img src="images/img(2).jpg" alt="applications" width="370" />
-					</li>
-					<li>
-						<img src="images/img(3).jpg" alt="colour-design" width="370" />
-					</li>
-				</ul>
+				<div class="container">
+					<h2 class="hero-title">Чим ми займаємося</h2>
+					<ul class="hero-item list">
+						<li>
+							<img src="images/img(1).jpg" alt="development" width="370" />
+						</li>
+						<li>
+							<img src="images/img(2).jpg" alt="applications" width="370" />
+						</li>
+						<li>
+							<img src="images/img(3).jpg" alt="colour-design" width="370" />
+						</li>
+					</ul>
+				</div>
 			</section>
 			<!--Team-->
-			<section class="hero-team" >
-				<h2 class="hero-title">Наша команда</h2>
-				<ul class="hero-team-list list" >
-					<li>
-						<img src="images/img(4).jpg" class="hero-team-item" alt="igor-demianenko" width="270" />
-						<h3 class="hero-team-member" >Ігор Дем'яненко</h3>
-						<p class="hero-team-text">Product Designer</p>
-					</li>
-					<li>
-						<img src="images/img(5).jpg" class="hero-team-item" alt="olga-repina" width="270" />
-						<h3 class="hero-team-member">Ольга Рєпіна</h3>
-						<p class="hero-team-text">Frontend Developer</p>
-					</li>
-					<li>
-						<img src="images/img(6).jpg" class="hero-team-item" alt="nikolay-tarasov" width="270" />
-						<h3 class="hero-team-member">Микола Тарасов</h3>
-						<p class="hero-team-text">Marketing</p>
-					</li>
-					<li>
-						<img src="images/img(7).jpg" class="hero-team-item" alt="michail-ermakov" width="270" />
-						<h3 class="hero-team-member">Михайло Єрмаков</h3>
-						<p class="hero-team-text">UI Designer</p>
-					</li>
-				</ul>
+			<section class="hero-team">
+				<div class="container">
+					<h2 class="hero-title">Наша команда</h2>
+					<ul class="hero-team-list list">
+						<li>
+							<img src="images/img(4).jpg" class="hero-team-item" alt="igor-demianenko" width="270" />
+							<h3 class="hero-team-member">Ігор Дем'яненко</h3>
+							<p class="hero-team-text">Product Designer</p>
+						</li>
+						<li>
+							<img src="images/img(5).jpg" class="hero-team-item" alt="olga-repina" width="270" />
+							<h3 class="hero-team-member">Ольга Рєпіна</h3>
+							<p class="hero-team-text">Frontend Developer</p>
+						</li>
+						<li>
+							<img src="images/img(6).jpg" class="hero-team-item" alt="nikolay-tarasov" width="270" />
+							<h3 class="hero-team-member">Микола Тарасов</h3>
+							<p class="hero-team-text">Marketing</p>
+						</li>
+						<li>
+							<img src="images/img(7).jpg" class="hero-team-item" alt="michail-ermakov" width="270" />
+							<h3 class="hero-team-member">Михайло Єрмаков</h3>
+							<p class="hero-team-text">UI Designer</p>
+						</li>
+					</ul>
+				</div>
 			</section>
 		</main>
-		<footer class="footer" >
-			<a href="./index.html" class="footer-logo link"> <span class="footer-logo-part footer-logo">Web</span><span class="footer-logo-second-part footer-logo">Studio</span> </a>
-			<!--Contacts-->
-			<address>
-				<ul class="list" >
-					<li>
-						<a href="https://goo.gl/maps/3mXJQrNmYbc9jaJk7" class="footer-location link" target="_blank" rel="noopener noreferrer nofollow">
-							м. Київ, пр-т Лесі Українки, 26
-						</a>
-					</li>
-					<li><a href="mailto:info@example.com" class="footer-mail link" >info@example.com</a></li>
-					<li><a href="tel:+380991111111" class="footer-tel link" >+38 099 111 11 11</a></li>
-				</ul>
-			</address>
+		<footer class="footer">
+			<div class="container">
+				<a href="./index.html" class="footer-logo link">
+					<span class="footer-logo-part footer-logo">Web</span>
+					<span class="footer-logo-second-part footer-logo">Studio</span>
+				</a>
+				<address>
+					<ul class="list">
+						<li>
+							<a
+								href="https://goo.gl/maps/3mXJQrNmYbc9jaJk7"
+								class="footer-location link"
+								target="_blank"
+								rel="noopener noreferrer nofollow"
+							>
+								м. Київ, пр-т Лесі Українки, 26
+							</a>
+						</li>
+						<li><a href="mailto:info@example.com" class="footer-mail link">info@example.com</a></li>
+						<li><a href="tel:+380991111111" class="footer-tel link">+38 099 111 11 11</a></li>
+					</ul>
+				</address>
+			</div>
 		</footer>
 	</body>
 </html>
